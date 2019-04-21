@@ -1,0 +1,198 @@
+html {
+    font-size: 20px;
+    
+}
+body {
+    max-width: 1500px;
+}
+
+
+.sign-in {
+    background-image: url('../img/bg.jpg');
+    width: 100%;
+    height: 575px;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.footer-block {
+    background-color: white;
+    height: 50vh;
+    z-index: 1;
+}
+
+.header {
+          
+            display: none;
+            
+        }
+
+
+
+.row {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    position: relative;
+    
+    top: 2rem;
+    
+}
+
+#navbarNav {
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+#navbar-custom {
+    background-color: white;
+    background-color: white;
+    padding: .2rem 1.4rem;
+    border-radius: 1.3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#climbing {
+    padding-right: 0rem;  
+    padding-left: 1rem;
+}
+
+.nav-link {
+    
+     color: rgb(0, 64, 128)!important;
+}
+
+.justify-content-end {
+    margin-left: 0rem;
+}
+
+#twitter-icon {
+
+    padding: .5rem 0rem;
+    margin: 0rem;
+}
+
+#central-text {
+    padding-top: 4rem;
+    @import url('https://fonts.googleapis.com/css?family=Lora');
+    font-family: 'Lora', serif;
+}
+
+#btn-go {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: rgb(0, 64, 128);
+}
+
+
+
+
+
+#smalltext {
+    font-size: .8rem;
+    @import url('https://fonts.googleapis.com/css?family=Lora');
+    font-family: 'Lora', serif;
+} 
+#text-color-blue {
+    font-family: 'Lora', serif;
+    color: rgb(0, 64, 128)!important; 
+}
+
+}
+#btn-color {
+    background-color: rgb(0, 64, 128);
+}
+
+@media (max-width: 790px) {
+    .justify-content-ipad-center {
+        justify-content: center;
+    
+    }
+    .sign-in {
+    
+    height: 55vh;
+}
+    .footer-block {
+    
+    height: 20vh;
+}
+    
+}
+
+@media screen and (max-width: 470px) {
+.header {
+     margin-bottom: 5px;
+     width: 100%;
+     height: 600px;
+     display: flex;
+     align-items: baseline;
+     position: relative;
+     justify-content: center;
+     background-image: url(../img/bg-big.jpg);
+     background-repeat: no-repeat;
+        }
+    
+.container-mob {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     height: 340px;
+      }
+.central-text {
+     display: flex;
+     justify-content: center;
+     font-family: 'Frijole', cursive;
+     font-size: 1.5rem;
+     color: white;
+     height: 350px;
+      }  
+    
+.btn-mob {
+    font-size: .9rem;
+    border-radius: 50rem; 
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    color: #343a40;
+    border-color: #343a40; 
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    
+    background-color:white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    
+h4 {
+    font-size: .9rem;
+    }
+    
+.text-first {
+    font-weight: 600;
+    }
+    
+.text-second {
+    font-weight: 50;
+    }
+small {
+    font-size: .65rem;
+    }
+.btn, .btn-lg {
+    font-size: .75rem;
+    }
+    
+.sign-in {
+     display: none;
+        }
+    
+        }
+
+
+
